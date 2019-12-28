@@ -1,0 +1,57 @@
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container {
+  padding: 16px;
+}
+</style>
+
+
+
+<form action="/user">
+<div class="container">
+  <label for="uname"><b>Login / Register</b></label>
+  <input type="text" placeholder="Enter Username" name="uname" required>
+  <button type="submit">Login</button>
+</div>
+</form>
+
+
+<form action="/userSearch">
+<div class="container">
+  <label for="uname"><b>Search Users</b></label>
+  <input type="text" placeholder="Enter Username" name="uname" required>
+  <button type="submit">Search</button>
+</div>
+</form>
+
+
+<form action="/hashtagSearch">
+<div class="container">
+  <label for="hashtag"><b>Search Hashtags</b></label>
+  <input type="text" placeholder="Enter Hashtag" name="hashtag" required>
+  <button type="submit">Search</button>
+</div>
+</form>
+
